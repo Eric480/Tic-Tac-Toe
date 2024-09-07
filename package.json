@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-essentials-start": "file:"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",

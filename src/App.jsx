@@ -97,7 +97,7 @@ function App() {
       <div id="game-container">
         <ol id = "players" className="highlight-player">
           <Player Initialname = "Player 1" symbol = "X" isActive = {activePlayer==='X'} onChangeName={setPlayerNameChange}/>
-          <Player Initialname = "Player 2" symbol = "Y" isActive = {activePlayer==='O'} onChangeName={setPlayerNameChange}/>
+          <Player Initialname = "Player 2" symbol = "O" isActive = {activePlayer==='O'} onChangeName={setPlayerNameChange}/>
         </ol>
         {(winner||hasDraw) && <GameOver winner = {winner} restart = {Restart}/>}
         <Gameboard gameBoard={gameboard} onSelectSquare={HandleSelectSquare} turns = {gameTurns}/>
